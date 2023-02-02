@@ -1,0 +1,28 @@
+_id: req_e3ad257a23914d7eb92ed7cb32f89bdb
+type: Request
+parentId: fld_2d0767d8f5c14c8c8f51bdc49a2f3e3a
+modified: 1675358188176
+created: 1675358188176
+url: "{{ _.baseUrl }}/tasks/1"
+name: Update task
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ac25ead461d943be97a2965461015281
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
+metaSortKey: -1641893695095.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

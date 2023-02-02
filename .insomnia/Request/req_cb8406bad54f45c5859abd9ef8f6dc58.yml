@@ -1,0 +1,28 @@
+_id: req_cb8406bad54f45c5859abd9ef8f6dc58
+type: Request
+parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
+modified: 1675357411155
+created: 1675171812844
+url: "{{ _.baseUrl }}/lists"
+name: Create list
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dbea4cf0b6314e6da0d2c4a248f9a620
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
+metaSortKey: -1642145707750.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

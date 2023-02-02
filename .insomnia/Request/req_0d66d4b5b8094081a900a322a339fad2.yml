@@ -1,0 +1,24 @@
+_id: req_0d66d4b5b8094081a900a322a339fad2
+type: Request
+parentId: fld_ef2d40837b4b406fbcfbe2e97dc20802
+modified: 1675173036516
+created: 1675171812305
+url: "{{ _.baseUrl }}/uploads"
+name: Get All Files
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjE5NTAwMzcsImlkIjoxLCJ0eXBlIjoiMiJ9.zao3vOHPWjvxh-LwnP5RuZqPqMD2ShZSMvveMD4j0Lw
+  type: bearer
+metaSortKey: -1591715386010
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

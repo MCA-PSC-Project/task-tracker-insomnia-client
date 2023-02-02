@@ -1,0 +1,28 @@
+_id: req_705da5edca4f48e39d92e79b4ae64c52
+type: Request
+parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
+modified: 1675357459074
+created: 1675171812849
+url: "{{ _.baseUrl }}/lists/1"
+name: Update list
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ac25ead461d943be97a2965461015281
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
+metaSortKey: -1641893695095.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

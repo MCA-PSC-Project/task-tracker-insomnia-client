@@ -1,0 +1,29 @@
+_id: req_69c85e5815a34e17b7144593a1da8fef
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675172459070
+created: 1675171812554
+url: "{{ _.baseUrl }}/auth/otp"
+name: Get otp on email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email" : "admin@email.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_686b9e81bb8e4c01a7eac84e3343f314
+authentication: {}
+metaSortKey: -1640859245489.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

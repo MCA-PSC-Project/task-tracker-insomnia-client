@@ -1,0 +1,21 @@
+_id: req_3200ebc757f442dfa0095bbe32483887
+type: Request
+parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
+modified: 1675357434205
+created: 1675171812840
+url: "{{ _.baseUrl }}/lists"
+name: get all lists
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1642397720405.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_deb573dc206240a885f9f88e8afe92b2
+type: Environment
+parentId: env_5c6f137c912c4dc1b544bbf6164877ca
+modified: 1675171862176
+created: 1675171812218
+name: Release
+data:
+  baseUrl: https://
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: "#2be53a"
+isPrivate: false
+metaSortKey: 2

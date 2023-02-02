@@ -1,0 +1,29 @@
+_id: req_7037f07ded83421da5f9b9d993b09b8c
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675171812539
+created: 1675171812539
+url: "{{ _.baseUrl }}/auth/otp"
+name: Get otp on mobile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"mobile_no" : "9879870000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_686b9e81bb8e4c01a7eac84e3343f314
+authentication: {}
+metaSortKey: -1640859174914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

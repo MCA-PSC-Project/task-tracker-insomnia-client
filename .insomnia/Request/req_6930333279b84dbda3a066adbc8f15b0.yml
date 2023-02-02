@@ -1,0 +1,28 @@
+_id: req_6930333279b84dbda3a066adbc8f15b0
+type: Request
+parentId: fld_ef2d40837b4b406fbcfbe2e97dc20802
+modified: 1675357205402
+created: 1675171812293
+url: "{{ _.baseUrl }}/uploads/media"
+name: Upload Media
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - id: pair_72468030ef6b4e98a5cb480c7f31e189
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDM2MzUwMjQsImlkIjoxLCJ1c2VyX3R5cGUiOiJlZHVjYXRvciJ9.EoR5LJXeHoKO92hpKZdD6Iq_rvnmDQngBLGIkRRdeYc
+  type: bearer
+metaSortKey: -1591715386035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

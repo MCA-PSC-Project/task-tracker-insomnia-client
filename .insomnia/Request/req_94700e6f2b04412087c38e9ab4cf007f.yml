@@ -1,0 +1,24 @@
+_id: req_94700e6f2b04412087c38e9ab4cf007f
+type: Request
+parentId: fld_fef46954e8ad46be808aa5f01434b036
+modified: 1675358674739
+created: 1675171812514
+url: "{{baseUrl}}/users/profile"
+name: Get Profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDM2MzY0NjcsImlkIjoxLCJ1c2VyX3R5cGUiOiJlZHVjYXRvciJ9.1iPbphK2sphUnljwdVKzDNaSfXyGVHtjgQVVfk3ClN8
+  type: bearer
+metaSortKey: -1644932259540.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

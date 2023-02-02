@@ -1,0 +1,24 @@
+_id: req_4b2db6175ae141658330a26bbf8dbb55
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675172521335
+created: 1675171812520
+url: "{{baseUrl}}/auth/refresh"
+name: Refresh Token
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDIyNDY5MTUsImlkIjoyLCJ1c2VyX3R5cGUiOiJlZHVjYXRvciJ9.9S-vO3PAvjTlQp2WrGhOb7EUjVu4Z8zMkEcYFQ6Hv88
+  type: bearer
+metaSortKey: -1640859247093.6484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

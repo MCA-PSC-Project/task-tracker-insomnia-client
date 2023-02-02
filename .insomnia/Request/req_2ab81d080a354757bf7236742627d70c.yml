@@ -1,0 +1,25 @@
+_id: req_2ab81d080a354757bf7236742627d70c
+type: Request
+parentId: fld_341a4cbb8bef4bba9bc80c14925542a6
+modified: 1675171812933
+created: 1675171812933
+url: "{{ _.baseUrl }}/search"
+name: search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ef8c193d4bef422384f4487e911abbca
+    name: query
+    value: test
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1648712665542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,9 @@
+_id: spc_7310aa4338b445969a1b40c93f602a2a
+type: ApiSpec
+parentId: wrk_aed0f066bd8549bcbe2a0d0a67036a24
+modified: 1675171812973
+created: 1675171812239
+fileName: task-tracker
+contents: |
+  openapi: 3.0.0
+contentType: yaml

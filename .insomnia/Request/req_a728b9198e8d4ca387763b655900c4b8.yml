@@ -1,0 +1,32 @@
+_id: req_a728b9198e8d4ca387763b655900c4b8
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675171812525
+created: 1675171812525
+url: "{{baseUrl}}/auth/reset"
+name: reset
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "codewiretesting123@gmail.com",
+    	"password": "nopassword123"
+    }
+parameters: []
+headers:
+  - id: pair_628e1f1e7f5e4aab854085047d47e126
+    name: Content-Type
+    value: application/json
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjA5OTI4NzksImlkIjoxLCJ0eXBlIjoiMiJ9.4lGplTsqDLu8JnS5BM3bzLAzCk4sd_Lc0uPVZAWNFyg
+  type: bearer
+metaSortKey: -1618417905984
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

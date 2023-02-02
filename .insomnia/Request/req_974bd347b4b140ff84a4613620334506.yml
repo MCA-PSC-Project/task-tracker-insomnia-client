@@ -1,0 +1,30 @@
+_id: req_974bd347b4b140ff84a4613620334506
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675171812545
+created: 1675171812545
+url: "{{ _.baseUrl }}/auth/otp/login"
+name: mobile otp login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"mobile_no" : "9879870000",
+    	"otp": "420464"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fadcb2910d804ba891ca31edf6dd4cf4
+authentication: {}
+metaSortKey: -1629638540474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

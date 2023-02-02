@@ -1,0 +1,21 @@
+_id: req_88fe7db6da334da58457e6733448794f
+type: Request
+parentId: fld_707791533c134e73972c3de6ecd5891b
+modified: 1675358151469
+created: 1675358151469
+url: "{{ _.baseUrl }}/tasks"
+name: get all tasks
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1642397720405.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

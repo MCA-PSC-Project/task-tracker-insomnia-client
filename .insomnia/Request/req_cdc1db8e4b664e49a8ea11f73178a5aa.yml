@@ -1,0 +1,32 @@
+_id: req_cdc1db8e4b664e49a8ea11f73178a5aa
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675171812550
+created: 1675171812550
+url: "{{ _.baseUrl }}/auth/otp/login"
+name: email otp login
+description: |-
+  admin - admin@email.com
+  educator- codewiretesting123@gmail.com
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email" : "admin@email.com",
+    	"otp": "321984"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fadcb2910d804ba891ca31edf6dd4cf4
+authentication: {}
+metaSortKey: -1640859243351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

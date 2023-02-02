@@ -1,0 +1,25 @@
+_id: req_f64ef21cd8bf4f9eb4e80309d5cd1eee
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675173005920
+created: 1675171812530
+url: "{{baseUrl}}/auth/verify-email"
+name: verify email
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    id: pair_67547286c7ac4d60aa2bb05b352a6541
+    name: key
+    value: 0FeQhfQ06yiUsLusVRaHh3Pc
+headers: []
+authentication: {}
+metaSortKey: -1640859244954.9922
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

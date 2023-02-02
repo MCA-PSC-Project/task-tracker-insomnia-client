@@ -1,0 +1,10 @@
+_id: fld_2b73565b467d4d76836af9ca488028e0
+type: RequestGroup
+parentId: wrk_aed0f066bd8549bcbe2a0d0a67036a24
+modified: 1675358264429
+created: 1675358120734
+name: events
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1643268858417.3281

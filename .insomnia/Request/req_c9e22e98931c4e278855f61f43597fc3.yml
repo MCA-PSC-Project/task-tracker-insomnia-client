@@ -1,0 +1,23 @@
+_id: req_c9e22e98931c4e278855f61f43597fc3
+type: Request
+parentId: fld_b5bfe38d68454b42b553a52851d2b643
+modified: 1675358091021
+created: 1675357893419
+url: "{{ _.baseUrl }}/subtasks/1"
+name: Delete subtask
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
+metaSortKey: -1641893695076.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

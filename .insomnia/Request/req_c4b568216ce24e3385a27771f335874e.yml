@@ -1,0 +1,23 @@
+_id: req_c4b568216ce24e3385a27771f335874e
+type: Request
+parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
+modified: 1675357469570
+created: 1675171812853
+url: "{{ _.baseUrl }}/lists/1"
+name: Delete list
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
+metaSortKey: -1641893695076.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

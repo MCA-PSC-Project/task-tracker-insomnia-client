@@ -1,0 +1,49 @@
+_id: req_93c111d78a964e589a7337fdbd6ed39e
+type: Request
+parentId: fld_a1a2340469cf4ea48f077506375e59fb
+modified: 1675172490616
+created: 1675171812508
+url: "{{baseUrl}}/auth/login"
+name: Login
+description: |-
+  { 
+  	"email" : "binny1@email.com", 
+  	"password" : "nopassword123" 
+  }
+
+  {
+  	"email" : "admin@email.com",
+  	"password" : "iamadmin"
+  }
+
+  {
+  	"email" : "codewiretesting123@gmail.com",
+  	"password" : "nopassword123"
+  }
+
+  {
+  	"email" : "user1@email.com",
+  	"password" : "iamuser"
+  }
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "user1@email.com",
+    	"password": "iamuser"
+    }
+parameters: []
+headers:
+  - id: pair_a6b8d0b347b14bdc8002af274996795d
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1640859260460.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_1aa48116244e4b388457c83e4565d371
+type: Request
+parentId: fld_ef2d40837b4b406fbcfbe2e97dc20802
+modified: 1675357232829
+created: 1675171812316
+url: "{{ _.baseUrl }}/uploads/files"
+name: Upload File
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - id: pair_72468030ef6b4e98a5cb480c7f31e189
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDIzMjYyOTEsImlkIjoyLCJ1c2VyX3R5cGUiOiJlZHVjYXRvciJ9.0ybPtyxdWdzYisWkUpE4aB27c4ZxwzBlCKlS6S43y0A
+  type: bearer
+metaSortKey: -1591715386028.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

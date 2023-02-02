@@ -1,0 +1,21 @@
+_id: req_9c880a01028f468bbab089a8dffcc078
+type: Request
+parentId: fld_ef2d40837b4b406fbcfbe2e97dc20802
+modified: 1675171812300
+created: 1675171812300
+url: "{{baseUrl}}/media/banners/84be3721-06b0-4b81-a159-1ca0b8340a9e.png"
+name: Get File
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1591715385985
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
