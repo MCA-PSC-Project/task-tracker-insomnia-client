@@ -1,10 +1,10 @@
 _id: req_e4ada82641804417b53c25d2c683c2cd
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675358120743
+modified: 1675428114569
 created: 1675358120743
 url: "{{ _.baseUrl }}/tasks"
-name: get all tasks
+name: get all events
 description: ""
 method: GET
 body: {}

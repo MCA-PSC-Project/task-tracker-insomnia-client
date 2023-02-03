@@ -1,10 +1,10 @@
 _id: req_b3e67260222341edaa84b055aa3214aa
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675358120758
+modified: 1675428167655
 created: 1675358120758
 url: "{{ _.baseUrl }}/tasks/1"
-name: Delete task
+name: Delete event
 description: ""
 method: DELETE
 body: {}

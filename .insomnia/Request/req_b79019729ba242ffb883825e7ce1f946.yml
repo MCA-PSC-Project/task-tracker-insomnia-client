@@ -1,10 +1,10 @@
 _id: req_b79019729ba242ffb883825e7ce1f946
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675358120754
+modified: 1675428142294
 created: 1675358120754
 url: "{{ _.baseUrl }}/tasks/1"
-name: Update task
+name: Update event
 description: ""
 method: PUT
 body:
