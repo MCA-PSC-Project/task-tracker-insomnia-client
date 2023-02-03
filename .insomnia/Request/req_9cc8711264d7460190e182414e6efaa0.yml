@@ -1,17 +1,17 @@
-_id: req_e4ada82641804417b53c25d2c683c2cd
+_id: req_9cc8711264d7460190e182414e6efaa0
 type: Request
-parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675430585854
-created: 1675358120743
-url: "{{ _.baseUrl }}/events"
-name: get all events
+parentId: fld_707791533c134e73972c3de6ecd5891b
+modified: 1675432288606
+created: 1675432206516
+url: "{{ _.baseUrl }}/assign"
+name: get tasks assigned to other users
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1642397720405.625
+metaSortKey: -1675432206516
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

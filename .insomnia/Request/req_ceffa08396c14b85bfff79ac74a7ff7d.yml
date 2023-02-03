@@ -1,7 +1,7 @@
 _id: req_ceffa08396c14b85bfff79ac74a7ff7d
 type: Request
 parentId: fld_4769d15dfd4e4d58b033fb3bfbdec9b7
-modified: 1675357873292
+modified: 1675433191459
 created: 1675357810040
 url: "{{ _.baseUrl }}/tasks/1"
 name: Update task
@@ -9,7 +9,20 @@ description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"title" : "updated title of task",
+    	"desciption" : "updated description of the task",
+    	"status" : "completed",
+    	"plan_start_date" : "2021-09-27",
+    	"plan_end_date" : "2021-09-30",
+    	"actual_end_date" : "2021-09-29",
+    	"duration" : "4320",
+    	"task_type" : "planned",
+    	"notify" : "true",
+    	"repeat" : "false",
+    	"priority" : "true"
+    }
 parameters: []
 headers:
   - name: Content-Type

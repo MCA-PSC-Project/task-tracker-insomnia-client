@@ -1,15 +1,23 @@
 _id: req_2bdfee3f4e854f8382823bf107e25cbc
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675428159143
+modified: 1675433320495
 created: 1675358120748
-url: "{{ _.baseUrl }}/tasks"
+url: "{{ _.baseUrl }}/events"
 name: Create event
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name" : "new event",
+    	"event_type" : "birthday",
+    	"event_date" :  "2021-09-27",
+    	"event_end_date" : null,
+    	"notify" : "true",
+    	"repeat" : "false"
+    }
 parameters: []
 headers:
   - name: Content-Type

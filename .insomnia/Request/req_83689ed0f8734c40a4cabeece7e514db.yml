@@ -1,15 +1,19 @@
 _id: req_83689ed0f8734c40a4cabeece7e514db
 type: Request
 parentId: fld_707791533c134e73972c3de6ecd5891b
-modified: 1675358151475
+modified: 1675434205840
 created: 1675358151475
-url: "{{ _.baseUrl }}/tasks"
-name: Create tasks
+url: "{{ _.baseUrl }}/assign"
+name: Create a tasks for other user
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"assignee_user_id" : 102,
+    	"task_id" : 10
+    }
 parameters: []
 headers:
   - name: Content-Type

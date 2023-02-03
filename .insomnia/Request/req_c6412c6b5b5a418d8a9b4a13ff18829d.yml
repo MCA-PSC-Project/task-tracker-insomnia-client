@@ -1,17 +1,21 @@
-_id: req_e4ada82641804417b53c25d2c683c2cd
+_id: req_c6412c6b5b5a418d8a9b4a13ff18829d
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675430585854
-created: 1675358120743
-url: "{{ _.baseUrl }}/events"
-name: get all events
+modified: 1675433307198
+created: 1675430922147
+url: "{{ _.baseUrl }}/assign"
+name: get events by date
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_037649d3d6cd48ce8ac0d1e1953eac27
+    name: date
+    value: ""
+    description: ""
 headers: []
 authentication: {}
-metaSortKey: -1642397720405.625
+metaSortKey: -1675430922147
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

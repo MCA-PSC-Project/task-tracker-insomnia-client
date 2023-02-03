@@ -1,7 +1,7 @@
 _id: req_70540f00e3c04766a04e99eb2a183f71
 type: Request
 parentId: fld_b5bfe38d68454b42b553a52851d2b643
-modified: 1675358083022
+modified: 1675433285261
 created: 1675357893415
 url: "{{ _.baseUrl }}/subtasks/1"
 name: Update subtask
@@ -9,7 +9,20 @@ description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"title" : "title of task",
+    	"desciption" : "description of the task",
+    	"status" : "in-progress",
+    	"plan_start_date" : "2021-09-27",
+    	"plan_end_date" : "2021-09-30",
+    	"actual_end_date" : "2021-09-29",
+    	"duration" : "4320",
+    	"task_type" : "planned",
+    	"notify" : "true",
+    	"repeat" : "false",
+    	"priority" : "true"
+    }
 parameters: []
 headers:
   - name: Content-Type

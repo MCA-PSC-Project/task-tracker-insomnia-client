@@ -1,17 +1,17 @@
-_id: req_e4ada82641804417b53c25d2c683c2cd
+_id: req_07bf5f65541e44e5be57f8c63a0281f9
 type: Request
-parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675430585854
-created: 1675358120743
-url: "{{ _.baseUrl }}/events"
-name: get all events
+parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
+modified: 1675433007409
+created: 1675432749891
+url: "{{ _.baseUrl }}/reset-settings"
+name: reset settings
 description: ""
-method: GET
+method: PUT
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1642397720405.625
+metaSortKey: -1641893695045.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

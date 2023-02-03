@@ -1,15 +1,24 @@
 _id: req_ec2384a602424e03be4f7e667b8b69bb
 type: Request
 parentId: fld_707791533c134e73972c3de6ecd5891b
-modified: 1675358151485
+modified: 1675432438125
 created: 1675358151485
-url: "{{ _.baseUrl }}/tasks/1"
-name: Delete task
+url: "{{ _.baseUrl }}/unassign"
+name: unassign a task from the user
 description: ""
 method: DELETE
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"assignee_user_id" : 102,
+    	"task_id" : 10
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_215fa5011043411e8d6dfec58fc23ff3
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio

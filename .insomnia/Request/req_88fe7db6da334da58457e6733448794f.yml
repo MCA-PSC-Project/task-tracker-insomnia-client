@@ -1,10 +1,10 @@
 _id: req_88fe7db6da334da58457e6733448794f
 type: Request
 parentId: fld_707791533c134e73972c3de6ecd5891b
-modified: 1675358151469
+modified: 1675432403037
 created: 1675358151469
-url: "{{ _.baseUrl }}/tasks"
-name: get all tasks
+url: "{{ _.baseUrl }}/assign/me"
+name: get assigned tasks
 description: ""
 method: GET
 body: {}

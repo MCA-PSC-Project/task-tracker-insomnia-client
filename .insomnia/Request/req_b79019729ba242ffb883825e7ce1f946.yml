@@ -1,15 +1,23 @@
 _id: req_b79019729ba242ffb883825e7ce1f946
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675428142294
+modified: 1675433327228
 created: 1675358120754
-url: "{{ _.baseUrl }}/tasks/1"
+url: "{{ _.baseUrl }}/events/1"
 name: Update event
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name" : "updated new event",
+    	"event_type" : "marriage_anniversary",
+    	"event_date" :  "2021-11-27",
+    	"event_end_date" : null,
+    	"notify" : "false",
+    	"repeat" : "false"
+    }
 parameters: []
 headers:
   - name: Content-Type

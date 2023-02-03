@@ -1,9 +1,9 @@
 _id: req_c372c3c6bcb64bb4bf3fccbeb0cba8fb
 type: Request
 parentId: fld_fef46954e8ad46be808aa5f01434b036
-modified: 1675427964365
+modified: 1675433059171
 created: 1675171812534
-url: "{{baseUrl}}/users/profile"
+url: "{{baseUrl}}/users/profile/1"
 name: update profile
 description: ""
 method: PUT
@@ -12,8 +12,13 @@ body:
   text: |-
     {
     	"name" : "Prashant Kumar",
-    	"mobile_no" : "9876543210",
-    	"dp_id": 307
+    	"email" : "prashantbittu@gmail.com",
+    	"phone" : "9876543210",
+    	"password" : "abcdef@123",
+    	"dob" : "2021-09-27",
+    	"gender" : "male",
+    	"dp_id" : 307,
+    	"trash" : "false"
     }
 parameters: []
 headers:

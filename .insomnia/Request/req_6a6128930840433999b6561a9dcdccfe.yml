@@ -1,17 +1,21 @@
-_id: req_194f1931f49c4b1f920b2c004121f630
+_id: req_6a6128930840433999b6561a9dcdccfe
 type: Request
 parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
-modified: 1675432044157
-created: 1675358237996
+modified: 1675432842080
+created: 1675432723773
 url: "{{ _.baseUrl }}/users/settings"
-name: get  users settings
+name: get default settings
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_a3162b22171b48d08e5fd2f82651522e
+    name: default
+    value: "true"
+    description: ""
 headers: []
 authentication: {}
-metaSortKey: -1642397720405.625
+metaSortKey: -1641893695070.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

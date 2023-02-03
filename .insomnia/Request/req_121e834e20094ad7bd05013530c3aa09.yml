@@ -1,15 +1,24 @@
 _id: req_121e834e20094ad7bd05013530c3aa09
 type: Request
 parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
-modified: 1675358238009
+modified: 1675434040510
 created: 1675358238009
-url: "{{ _.baseUrl }}/tasks/1"
-name: Update task
+url: "{{ _.baseUrl }}/users/settings/1"
+name: Update users settings
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"theme type" : "color",
+    	"theme_color" : "yellow",
+    	"background_image_id" : 2345,
+    	"confirm_deletion" : "true",
+    	"top_task_type" : "completed",
+    	"notify" : "true",
+    	"mode" : "white"
+    }
 parameters: []
 headers:
   - name: Content-Type

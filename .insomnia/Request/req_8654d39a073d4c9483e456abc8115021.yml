@@ -1,19 +1,24 @@
-_id: req_a2bbc42d567c48db98c22ac1c35456c3
+_id: req_8654d39a073d4c9483e456abc8115021
 type: Request
 parentId: fld_2d0767d8f5c14c8c8f51bdc49a2f3e3a
-modified: 1675358188183
-created: 1675358188183
-url: "{{ _.baseUrl }}/tasks/1"
-name: Delete task
+modified: 1675434172493
+created: 1675433608596
+url: "{{ _.baseUrl }}/planned"
+name: post planned task
 description: ""
-method: DELETE
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dbea4cf0b6314e6da0d2c4a248f9a620
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
-metaSortKey: -1641893695076.5
+metaSortKey: -1642019701422.8438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

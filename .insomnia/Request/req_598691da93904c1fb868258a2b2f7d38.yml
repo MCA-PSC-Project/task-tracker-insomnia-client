@@ -1,10 +1,10 @@
 _id: req_598691da93904c1fb868258a2b2f7d38
 type: Request
 parentId: fld_2d0767d8f5c14c8c8f51bdc49a2f3e3a
-modified: 1675358188171
+modified: 1675434166677
 created: 1675358188171
-url: "{{ _.baseUrl }}/tasks"
-name: Create tasks
+url: "{{ _.baseUrl }}/my-day"
+name: post my_day task
 description: ""
 method: POST
 body:
@@ -18,7 +18,7 @@ headers:
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
-metaSortKey: -1642145707750.4375
+metaSortKey: -1658915645100.8125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

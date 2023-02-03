@@ -1,7 +1,7 @@
 _id: req_705da5edca4f48e39d92e79b4ae64c52
 type: Request
 parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
-modified: 1675427735271
+modified: 1675433092935
 created: 1675171812849
 url: "{{ _.baseUrl }}/lists/1"
 name: Update list
@@ -9,7 +9,10 @@ description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name": "newlist"
+    }
 parameters: []
 headers:
   - name: Content-Type

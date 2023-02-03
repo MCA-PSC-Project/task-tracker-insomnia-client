@@ -1,10 +1,10 @@
 _id: req_a98275a30bb64ae6bde3035d089a5f24
 type: Request
 parentId: fld_2d0767d8f5c14c8c8f51bdc49a2f3e3a
-modified: 1675358188164
+modified: 1675434151374
 created: 1675358188164
-url: "{{ _.baseUrl }}/tasks"
-name: get all tasks
+url: "{{ _.baseUrl }}/planned"
+name: get planned task
 description: ""
 method: GET
 body: {}

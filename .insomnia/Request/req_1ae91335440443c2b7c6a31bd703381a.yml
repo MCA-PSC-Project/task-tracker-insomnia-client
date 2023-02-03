@@ -1,15 +1,24 @@
 _id: req_1ae91335440443c2b7c6a31bd703381a
 type: Request
 parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
-modified: 1675358238003
+modified: 1675434046255
 created: 1675358238003
-url: "{{ _.baseUrl }}/tasks"
-name: Create tasks
+url: "{{ _.baseUrl }}/users/settings"
+name: Create users settings
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"theme type" : "color",
+    	"theme_color" : "blue",
+    	"background_image_id" : 2345,
+    	"confirm_deletion" : "false",
+    	"top_task_type" : "completed",
+    	"notify" : "true",
+    	"mode" : "white"
+    }
 parameters: []
 headers:
   - name: Content-Type

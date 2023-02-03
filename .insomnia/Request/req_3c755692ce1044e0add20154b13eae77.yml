@@ -1,17 +1,21 @@
-_id: req_e4ada82641804417b53c25d2c683c2cd
+_id: req_3c755692ce1044e0add20154b13eae77
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675430585854
-created: 1675358120743
+modified: 1675433315688
+created: 1675430960161
 url: "{{ _.baseUrl }}/events"
-name: get all events
+name: get events by type
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_819d95f265a6404b95078a31fc4912b7
+    name: type
+    value: ""
+    description: ""
 headers: []
 authentication: {}
-metaSortKey: -1642397720405.625
+metaSortKey: -1675430960161
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
