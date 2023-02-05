@@ -1,14 +1,16 @@
 _id: env_4d846086fdb645cf8ae78180b13274b7
 type: Environment
 parentId: env_5c6f137c912c4dc1b544bbf6164877ca
-modified: 1675427482155
+modified: 1675615408658
 created: 1675171812209
 name: Local
 data:
   baseUrl: http://localhost:5000
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNjc1NjE1MzgyLCJqdGkiOiJiYTA3MjgzNS05MjYzLTQ1ZWItOGZlYi01YWE3NjhhMTBkN2UiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoyMCwibmJmIjoxNjc1NjE1MzgyLCJleHAiOjE2NzU2MTg5ODJ9.BidHi7CpboxMKCpdE15Ikz_se6btYIbVdRFbBxjmAuo
 dataPropertyOrder:
   "&":
     - baseUrl
+    - token
 color: "#68cef1"
 isPrivate: false
 metaSortKey: 0

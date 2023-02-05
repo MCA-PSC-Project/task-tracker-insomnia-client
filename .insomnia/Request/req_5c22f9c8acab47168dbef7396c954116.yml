@@ -1,7 +1,7 @@
 _id: req_5c22f9c8acab47168dbef7396c954116
 type: Request
 parentId: fld_a1a2340469cf4ea48f077506375e59fb
-modified: 1675427945132
+modified: 1675577032240
 created: 1675171812503
 url: "{{baseUrl}}/auth/register"
 name: Register
@@ -11,8 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email" : "user1@email.com",
-    	"password" : "iamuser"
+    	"email": "user1@email.com",
+    	"password": "iamuser",
+    	"name": "prashant",
+    	"phone": "123457890",
+    	"dob": "6/1/1998",
+    	"gender": "male"
     }
 parameters: []
 headers:

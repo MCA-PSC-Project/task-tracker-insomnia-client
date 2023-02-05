@@ -1,0 +1,23 @@
+_id: req_1b5d541e42ec41979eac9e9ca44421cb
+type: Request
+parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
+modified: 1675358238014
+created: 1675358238014
+url: "{{ _.baseUrl }}/tasks/1"
+name: Delete task
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
+metaSortKey: -1641893695076.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

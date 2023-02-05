@@ -1,16 +1,18 @@
 _id: req_23914ea2843c493ebb71453499c9ceb8
 type: Request
 parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
-modified: 1675433483927
+modified: 1675617513652
 created: 1675433409918
 url: "{{ _.baseUrl }}/lists/1/tasks"
-name: get task of a list
+name: get tasks of a list
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1675433409918
 isPrivate: false
 settingStoreCookies: true

@@ -1,17 +1,19 @@
 _id: req_db3f23987c6d44a1bc9f40f16d8a6a4d
 type: Request
 parentId: fld_fef46954e8ad46be808aa5f01434b036
-modified: 1675429432978
+modified: 1675615325434
 created: 1675429321302
-url: "{{ _.baseUrl }}/users/profile/1"
+url: "{{ _.baseUrl }}/users/profile"
 name: delete profile
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
-metaSortKey: -1675429321302
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1644293507607.8438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

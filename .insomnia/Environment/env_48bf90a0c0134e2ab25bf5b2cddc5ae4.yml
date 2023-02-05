@@ -1,14 +1,16 @@
 _id: env_48bf90a0c0134e2ab25bf5b2cddc5ae4
 type: Environment
 parentId: env_5c6f137c912c4dc1b544bbf6164877ca
-modified: 1675427537487
+modified: 1675586949724
 created: 1675171812223
 name: Dev
 data:
   baseUrl: https://task-tracker-backend.onrender.com
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNjc1NTg2NzQ5LCJqdGkiOiI2NmE5NDEzZC1jZDNlLTRmY2ItODQ2NC0wNWMyOWZhNTYwMDUiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoxOSwibmJmIjoxNjc1NTg2NzQ5LCJleHAiOjE2NzU2NzMxNDl9.ygCO0Z-foKzXaRdY5lgjqwsz3th3PLsNPkmzqV51zEg
 dataPropertyOrder:
   "&":
     - baseUrl
+    - token
 color: "#e9ff00"
 isPrivate: false
 metaSortKey: 1

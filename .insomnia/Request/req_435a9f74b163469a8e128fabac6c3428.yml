@@ -1,19 +1,17 @@
-_id: req_c372c3c6bcb64bb4bf3fccbeb0cba8fb
+_id: req_435a9f74b163469a8e128fabac6c3428
 type: Request
 parentId: fld_fef46954e8ad46be808aa5f01434b036
-modified: 1675613739711
-created: 1675171812534
-url: "{{baseUrl}}/users/profile"
-name: update profile
+modified: 1675618148699
+created: 1675613680779
+url: "{{baseUrl}}/reset-phone"
+name: reset phone
 description: ""
-method: PUT
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"name" : "Prashant Kumar",
-    	"dob" : "2021-09-27",
-    	"gender" : "male"
+    	"phone" : "9876543210"
     }
 parameters: []
 headers:
@@ -24,7 +22,7 @@ authentication:
   disabled: false
   token: "{{ _.token }}"
   type: bearer
-metaSortKey: -1644932259490.375
+metaSortKey: -1644293507632.8438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

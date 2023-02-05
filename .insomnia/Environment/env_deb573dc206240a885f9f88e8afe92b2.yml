@@ -1,14 +1,16 @@
 _id: env_deb573dc206240a885f9f88e8afe92b2
 type: Environment
 parentId: env_5c6f137c912c4dc1b544bbf6164877ca
-modified: 1675427509994
+modified: 1675586941281
 created: 1675171812218
 name: Release
 data:
   baseUrl: https://
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNjc1NTg2NzQ5LCJqdGkiOiI2NmE5NDEzZC1jZDNlLTRmY2ItODQ2NC0wNWMyOWZhNTYwMDUiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoxOSwibmJmIjoxNjc1NTg2NzQ5LCJleHAiOjE2NzU2NzMxNDl9.ygCO0Z-foKzXaRdY5lgjqwsz3th3PLsNPkmzqV51zEg
 dataPropertyOrder:
   "&":
     - baseUrl
+    - token
 color: "#2be53a"
 isPrivate: false
 metaSortKey: 2
