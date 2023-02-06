@@ -1,7 +1,7 @@
 _id: req_740187b6e32e460283cdcc3d2528cc7b
 type: Request
 parentId: fld_2d0767d8f5c14c8c8f51bdc49a2f3e3a
-modified: 1675434141260
+modified: 1675707661105
 created: 1675433569796
 url: "{{ _.baseUrl }}/my-day"
 name: get my_day task
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1675433569796
 isPrivate: false
 settingStoreCookies: true

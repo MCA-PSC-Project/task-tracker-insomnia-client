@@ -1,17 +1,19 @@
 _id: req_10039e23aa4f408abb1960c45ce89e29
 type: Request
 parentId: fld_b5bfe38d68454b42b553a52851d2b643
-modified: 1675357939356
+modified: 1675704253318
 created: 1675357893399
-url: "{{ _.baseUrl }}/subtasks"
-name: get all subtasks
+url: "{{ _.baseUrl }}/tasks/2/subtasks"
+name: get all subtasks of a task
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
-metaSortKey: -1642397720405.625
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1642082704586.6406
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

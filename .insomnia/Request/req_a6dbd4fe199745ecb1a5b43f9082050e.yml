@@ -1,18 +1,18 @@
 _id: req_a6dbd4fe199745ecb1a5b43f9082050e
 type: Request
 parentId: fld_b5bfe38d68454b42b553a52851d2b643
-modified: 1675433276625
+modified: 1675705073565
 created: 1675357893404
-url: "{{ _.baseUrl }}/tasks/1/subtasks"
-name: Create subtasks
+url: "{{ _.baseUrl }}/tasks/2/subtasks"
+name: Create subtask
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"title" : "title of task",
-    	"desciption" : "description of the task",
+    	"title" : "title of subtask",
+    	"description" : "description of the subtask",
     	"status" : "in-progress",
     	"plan_start_date" : "2021-09-27",
     	"plan_end_date" : "2021-09-30",
@@ -30,8 +30,8 @@ headers:
     id: pair_dbea4cf0b6314e6da0d2c4a248f9a620
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
-metaSortKey: -1642145707750.4375
+  token: "{{ _.token }}"
+metaSortKey: -1641988199840.9453
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_f610a45c8bd842668cd319c8f13e33d5
 type: Request
 parentId: fld_4769d15dfd4e4d58b033fb3bfbdec9b7
-modified: 1675357834650
+modified: 1675690670856
 created: 1675357810027
 url: "{{ _.baseUrl }}/tasks"
 name: get all tasks
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1642397720405.625
 isPrivate: false
 settingStoreCookies: true
