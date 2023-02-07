@@ -1,28 +1,23 @@
 _id: req_ec2384a602424e03be4f7e667b8b69bb
 type: Request
-parentId: fld_707791533c134e73972c3de6ecd5891b
-modified: 1675432438125
+parentId: fld_98975d1551d849cc814258744c7ae75e
+modified: 1675786533957
 created: 1675358151485
-url: "{{ _.baseUrl }}/unassign"
+url: "{{ _.baseUrl }}/assigns/1"
 name: unassign a task from the user
 description: ""
 method: DELETE
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"assignee_user_id" : 102,
-    	"task_id" : 10
-    }
-parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_215fa5011043411e8d6dfec58fc23ff3
+body: {}
+parameters:
+  - id: pair_d01b2a60c96e4e768c8a4f887417a82e
+    name: assignee_user_id
+    value: ""
+    description: ""
+headers: []
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0Mjg3OTAsImlkIjoyNSwidXNlcl90eXBlIjoiYWRtaW4ifQ.gbGE8jDHPqRKnI0UAEzcqUOinyhwBQ2AZ5VXqqx9Rio
-metaSortKey: -1641893695076.5
+  token: "{{ _.token }}"
+metaSortKey: -1675520321861.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

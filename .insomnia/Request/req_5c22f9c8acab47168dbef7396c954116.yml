@@ -1,24 +1,28 @@
 _id: req_5c22f9c8acab47168dbef7396c954116
 type: Request
 parentId: fld_a1a2340469cf4ea48f077506375e59fb
-modified: 1675767760705
+modified: 1675790932276
 created: 1675171812503
 url: "{{baseUrl}}/auth/register"
 name: Register
 description: |-
   	"email": "newuser@email.com",
   	"password": "abcd@123",
+  	
+  	
+  	"email": "newuser1@email.com",
+  	"password": "abcd@123",
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "newuser@email.com",
+    	"email": "newuser1@email.com",
     	"password": "abcd@123",
-    	"name": "sheetal",
-    	"phone": "1234467770",
+    	"name": "prashant",
+    	"phone": "1234467780",
     	"dob": "10/3/1998",
-    	"gender": "female"
+    	"gender": "male"
     }
 parameters: []
 headers:

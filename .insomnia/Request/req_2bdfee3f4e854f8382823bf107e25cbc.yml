@@ -1,7 +1,7 @@
 _id: req_2bdfee3f4e854f8382823bf107e25cbc
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675768616673
+modified: 1675777026779
 created: 1675358120748
 url: "{{ _.baseUrl }}/events"
 name: Create event
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"name" : "2nd event",
-    	"event_type" : "other",
+    	"event_type" : "birthday",
     	"event_date" :  "2021-11-30",
     	"event_end_date" : null,
     	"notify" : "true",

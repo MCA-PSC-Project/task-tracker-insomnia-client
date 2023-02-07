@@ -1,9 +1,9 @@
 _id: req_3c755692ce1044e0add20154b13eae77
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675692687090
+modified: 1675777291448
 created: 1675430960161
-url: "{{ _.baseUrl }}/event"
+url: "{{ _.baseUrl }}/events"
 name: get events by type
 description: ""
 method: GET
@@ -11,11 +11,14 @@ body: {}
 parameters:
   - id: pair_819d95f265a6404b95078a31fc4912b7
     name: type
-    value: ""
+    value: birthday
     description: ""
+    disabled: false
 headers: []
-authentication: {}
-metaSortKey: -1675430960161
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1675430931650.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,10 +1,10 @@
 _id: req_8654d39a073d4c9483e456abc8115021
 type: Request
 parentId: fld_2d0767d8f5c14c8c8f51bdc49a2f3e3a
-modified: 1675708092558
+modified: 1675772725330
 created: 1675433608596
 url: "{{ _.baseUrl }}/tasks"
-name: post planned task
+name: create planned task
 description: ""
 method: POST
 body:

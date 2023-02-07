@@ -1,15 +1,19 @@
-_id: req_c6412c6b5b5a418d8a9b4a13ff18829d
+_id: req_fc06e61e379948f184611d9435791e0c
 type: Request
 parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675777133136
-created: 1675430922147
+modified: 1675777372811
+created: 1675777275432
 url: "{{ _.baseUrl }}/events"
-name: get events by date
+name: get events by type & date
 description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_037649d3d6cd48ce8ac0d1e1953eac27
+  - id: pair_ebbeda5f363e409a99013d5bf1a33f86
+    name: type
+    value: birthday
+    description: ""
+  - id: pair_3bd65833d3eb4f8a905e18fd9fe42db0
     name: date
     value: 2021-11-30
     description: ""
@@ -17,7 +21,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1675430922147
+metaSortKey: -1675345958127
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

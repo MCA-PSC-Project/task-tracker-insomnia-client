@@ -1,16 +1,22 @@
 _id: req_88fe7db6da334da58457e6733448794f
 type: Request
-parentId: fld_707791533c134e73972c3de6ecd5891b
-modified: 1675432403037
+parentId: fld_5a0bf2cc867842dab29e87d54eae0ca2
+modified: 1675784779742
 created: 1675358151469
-url: "{{ _.baseUrl }}/assign/me"
-name: get assigned tasks
+url: "{{ _.baseUrl }}/assigns"
+name: get tasks assigned to me
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_a0e3d7e05d3b4a5ab9e4464285fecc60
+    name: to
+    value: me
+    description: ""
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1642397720405.625
 isPrivate: false
 settingStoreCookies: true

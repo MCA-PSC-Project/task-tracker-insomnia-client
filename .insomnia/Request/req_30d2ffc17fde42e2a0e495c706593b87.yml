@@ -1,7 +1,7 @@
 _id: req_30d2ffc17fde42e2a0e495c706593b87
 type: Request
 parentId: fld_4769d15dfd4e4d58b033fb3bfbdec9b7
-modified: 1675771320595
+modified: 1675790464075
 created: 1675357810034
 url: "{{ _.baseUrl }}/tasks"
 name: Create tasks
@@ -11,13 +11,17 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"title" : "title of task",
-    	"status" : "in-progress",
-    	"duration" : "4320",
-    	"task_type" : "planned",
-    	"notify" : "true",
-    	"repeat" : "false",
-    	"priority" : "true"
+    	"title": "title123 of task",
+    	"description": "description of task",
+    	"status": "in-progress",
+    	"plan_start_date": "2021-09-27",
+    	"plan_end_date": "2021-09-30",
+    	"actual_end_date": "2021-09-29",
+    	"duration": "4320",
+    	"task_type": "planned",
+    	"notify": "true",
+    	"repeat": "false",
+    	"priority": "true"
     }
 parameters: []
 headers:
