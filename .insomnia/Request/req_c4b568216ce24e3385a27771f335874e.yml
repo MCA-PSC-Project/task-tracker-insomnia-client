@@ -1,9 +1,9 @@
 _id: req_c4b568216ce24e3385a27771f335874e
 type: Request
 parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
-modified: 1675587281020
+modified: 1675698623765
 created: 1675171812853
-url: "{{ _.baseUrl }}/lists/23"
+url: "{{ _.baseUrl }}/lists/4"
 name: Delete list
 description: ""
 method: DELETE

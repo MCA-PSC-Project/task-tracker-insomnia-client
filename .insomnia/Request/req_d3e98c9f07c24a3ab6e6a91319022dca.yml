@@ -1,27 +1,29 @@
-_id: req_cb8406bad54f45c5859abd9ef8f6dc58
+_id: req_d3e98c9f07c24a3ab6e6a91319022dca
 type: Request
-parentId: fld_53b3d7581f384a75b2ec1e22c0c3770a
-modified: 1675773547839
-created: 1675171812844
-url: "{{ _.baseUrl }}/lists"
-name: Create list
+parentId: fld_90e6e41d992842b0ae0728721e15f182
+modified: 1675774965736
+created: 1675772041381
+url: "{{ _.baseUrl }}/baskets"
+name: create baskets
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "my_list1"
+    	"product_name" : "bread",
+    	"status_type" : "in-progress",
+    	"product_type" : "grocery",
+    	"repeat" : "true"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_dbea4cf0b6314e6da0d2c4a248f9a620
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1642145707750.4375
+metaSortKey: -1675772065816.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

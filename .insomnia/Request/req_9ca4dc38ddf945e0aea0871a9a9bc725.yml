@@ -1,19 +1,19 @@
-_id: req_b3e67260222341edaa84b055aa3214aa
+_id: req_9ca4dc38ddf945e0aea0871a9a9bc725
 type: Request
-parentId: fld_2b73565b467d4d76836af9ca488028e0
-modified: 1675768748270
-created: 1675358120758
-url: "{{ _.baseUrl }}/events/5"
-name: Delete event
+parentId: fld_90e6e41d992842b0ae0728721e15f182
+modified: 1675773044074
+created: 1675772018742
+url: "{{ _.baseUrl }}/baskets"
+name: get all baskets
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1641893695076.5
+metaSortKey: -1675772072820
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,35 @@
+_id: req_735046c3a70a40649bbaa412210dd4cd
+type: Request
+parentId: fld_90e6e41d992842b0ae0728721e15f182
+modified: 1675774985200
+created: 1675772058813
+url: "{{ _.baseUrl }}/baskets/2"
+name: update basket
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_name" : "jam",
+    	"status_type" : "completed",
+    	"updated_at" : "2021-09-29",
+    	"completed_at" : "2021-09-30",
+    	"product_type" : "grocery",
+    	"repeat" : "true"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1675772058813
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
