@@ -1,16 +1,18 @@
 _id: req_07bf5f65541e44e5be57f8c63a0281f9
 type: Request
 parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
-modified: 1675433007409
+modified: 1675864508167
 created: 1675432749891
-url: "{{ _.baseUrl }}/reset-settings"
+url: "{{ _.baseUrl }}/users/reset-settings/3"
 name: reset settings
 description: ""
 method: PUT
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1641893695045.25
 isPrivate: false
 settingStoreCookies: true

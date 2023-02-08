@@ -1,9 +1,9 @@
 _id: req_996873ae6a3c47089f88129db7a2184f
 type: Request
 parentId: fld_5a0bf2cc867842dab29e87d54eae0ca2
-modified: 1675794326397
+modified: 1675856058061
 created: 1675786406757
-url: "{{ _.baseUrl }}/assigns/1"
+url: "{{ _.baseUrl }}/assigns/3"
 name: update assigned task's status
 description: ""
 method: PATCH

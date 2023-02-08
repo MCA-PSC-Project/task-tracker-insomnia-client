@@ -1,12 +1,12 @@
 _id: env_4d846086fdb645cf8ae78180b13274b7
 type: Environment
 parentId: env_5c6f137c912c4dc1b544bbf6164877ca
-modified: 1675792831322
+modified: 1675875730119
 created: 1675171812209
 name: Local
 data:
   baseUrl: http://localhost:5000
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNjc1NzkyODA1LCJqdGkiOiI0MmYxNzY3Ni0yMzVlLTQ0NTQtODc4NC1jYmM1MjE3YmY2MzAiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoxLCJuYmYiOjE2NzU3OTI4MDUsImV4cCI6MTY3NTc5NjQwNX0.ldPstyalDvAg7cVTr1RxLMFPF8WbkFT2dchTK69pP3g
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNjc1ODc1NzEwLCJqdGkiOiIwMzY4OGFlZC0zZjNjLTQzMTQtOGRjYy0wYTJlZjZlOTZhOGIiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoxLCJuYmYiOjE2NzU4NzU3MTAsImV4cCI6MTY3NTg3OTMxMH0.fn6UWM9kSnjID3dN5wFzCR4nGGiXSo5yL3yi5xScWFo
 dataPropertyOrder:
   "&":
     - baseUrl

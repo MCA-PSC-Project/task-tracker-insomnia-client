@@ -1,7 +1,7 @@
 _id: req_4b2db6175ae141658330a26bbf8dbb55
 type: Request
 parentId: fld_a1a2340469cf4ea48f077506375e59fb
-modified: 1675593513627
+modified: 1675859665416
 created: 1675171812520
 url: "{{baseUrl}}/auth/refresh"
 name: Refresh Token
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   disabled: false
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY3NTU5MzQyOCwianRpIjoiOTUwMzE3MzctODkzNi00YjhkLThhNTQtMDg3ODY2OGM3NTkzIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOjE5LCJuYmYiOjE2NzU1OTM0MjgsImV4cCI6MTY3ODE4NTQyOH0.povkeb640yHDdWMc2mifvV85GjRgsOGN7WHYRZ6WfOM
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY3NTg1OTI4MCwianRpIjoiYmYxNDViZTMtOTQyNC00MmE1LTg1M2YtNmVhM2I3MGU4ZTJiIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOjYsIm5iZiI6MTY3NTg1OTI4MCwiZXhwIjoxNjc4NDUxMjgwfQ.cBCC_LU2DGEHfBzqB1JiSHF5txb1NU7KaKQAsHuRRqg
   type: bearer
 metaSortKey: -1640859247093.6484
 isPrivate: false

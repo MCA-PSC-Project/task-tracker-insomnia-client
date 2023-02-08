@@ -1,7 +1,7 @@
 _id: req_154662d2191245da9fb835de8f341b68
 type: Request
 parentId: fld_fef46954e8ad46be808aa5f01434b036
-modified: 1675618143564
+modified: 1675876811880
 created: 1675613804983
 url: "{{baseUrl}}/reset-password"
 name: reset password
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"password" : "9876543210"
+    	"email": "newuser@email.com",
+    	"new_password" : "abcd@123"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_194f1931f49c4b1f920b2c004121f630
 type: Request
 parentId: fld_c770c0afd7f44e38b3cbfcfbf25ede74
-modified: 1675432044157
+modified: 1675856463095
 created: 1675358237996
 url: "{{ _.baseUrl }}/users/settings"
 name: get  users settings
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1642397720405.625
 isPrivate: false
 settingStoreCookies: true

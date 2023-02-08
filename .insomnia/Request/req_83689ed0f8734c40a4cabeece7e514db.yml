@@ -1,7 +1,7 @@
 _id: req_83689ed0f8734c40a4cabeece7e514db
 type: Request
 parentId: fld_98975d1551d849cc814258744c7ae75e
-modified: 1675791086658
+modified: 1675851992879
 created: 1675358151475
 url: "{{ _.baseUrl }}/assigns"
 name: Create a tasks for other user
@@ -13,7 +13,7 @@ body:
     {
     	"to": "others",
     	"assignee_email": "newuser@email.com",
-    	"task_id": 3
+    	"task_id": 4
     }
 parameters: []
 headers:

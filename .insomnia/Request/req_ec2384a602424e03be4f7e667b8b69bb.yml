@@ -1,9 +1,9 @@
 _id: req_ec2384a602424e03be4f7e667b8b69bb
 type: Request
 parentId: fld_98975d1551d849cc814258744c7ae75e
-modified: 1675786533957
+modified: 1675856075958
 created: 1675358151485
-url: "{{ _.baseUrl }}/assigns/1"
+url: "{{ _.baseUrl }}/assigns/3"
 name: unassign a task from the user
 description: ""
 method: DELETE
@@ -11,7 +11,7 @@ body: {}
 parameters:
   - id: pair_d01b2a60c96e4e768c8a4f887417a82e
     name: assignee_user_id
-    value: ""
+    value: "1"
     description: ""
 headers: []
 authentication:

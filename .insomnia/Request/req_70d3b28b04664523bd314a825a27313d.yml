@@ -1,9 +1,9 @@
 _id: req_70d3b28b04664523bd314a825a27313d
 type: Request
 parentId: fld_90e6e41d992842b0ae0728721e15f182
-modified: 1675775200470
+modified: 1675872796800
 created: 1675772074821
-url: "{{ _.baseUrl }}/baskets/3"
+url: "{{ _.baseUrl }}/baskets/1"
 name: delete basket
 description: ""
 method: DELETE

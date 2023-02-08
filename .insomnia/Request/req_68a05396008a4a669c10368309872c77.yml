@@ -1,7 +1,7 @@
 _id: req_68a05396008a4a669c10368309872c77
 type: Request
 parentId: fld_fef46954e8ad46be808aa5f01434b036
-modified: 1675618153897
+modified: 1675874998378
 created: 1675613638798
 url: "{{baseUrl}}/reset-email"
 name: reset email
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email" : "prashantbittu@gmail.com"
+    	"email" : "newuser@email.com"
     }
 parameters: []
 headers:
