@@ -1,7 +1,7 @@
 _id: req_5c22f9c8acab47168dbef7396c954116
 type: Request
 parentId: fld_a1a2340469cf4ea48f077506375e59fb
-modified: 1675876145667
+modified: 1676026643206
 created: 1675171812503
 url: "{{baseUrl}}/auth/register"
 name: Register
@@ -20,12 +20,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "sheetal@gmail.com",
+    	"email": "mywebnewslettersinbox123@gmail.com",
     	"password": "abcd@123",
-    	"name": "sheetal kumari",
-    	"phone": "9876543211",
+    	"name": "bittu kumar",
+    	"phone": "2222222222222",
     	"dob": "10/3/1998",
-    	"gender": "female"
+    	"gender": "male"
     }
 parameters: []
 headers:
@@ -33,7 +33,7 @@ headers:
     name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1640859247628.3125
+metaSortKey: -1640859254044.2812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,10 +1,11 @@
 _id: req_f64ef21cd8bf4f9eb4e80309d5cd1eee
 type: Request
 parentId: fld_a1a2340469cf4ea48f077506375e59fb
-modified: 1675173005920
+modified: 1676027221300
 created: 1675171812530
-url: "{{baseUrl}}/auth/verify-email"
-name: verify email
+url: "{{baseUrl}}/auth/confirm-email/Im15d2VibmV3c2xldHRlcnNpbmJveDEyM0BnbWFpbC\
+  5jb20i.Y-YjeQ.wmTbdF9ywP6VOK36JQ9QKSL0BxA"
+name: confirm/verify email
 description: ""
 method: GET
 body: {}
@@ -15,7 +16,7 @@ parameters:
     value: 0FeQhfQ06yiUsLusVRaHh3Pc
 headers: []
 authentication: {}
-metaSortKey: -1640859244954.9922
+metaSortKey: -1640859246291.6523
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
